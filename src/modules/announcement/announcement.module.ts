@@ -7,6 +7,7 @@ import { JwtModule } from '@nestjs/jwt';
 import { UsersEntity } from '../../infrastructure/orm/entities/users.entity';
 import { OrmModule } from '../../infrastructure/orm/orm.module';
 import { ORMService } from '../../infrastructure/orm/orm.service'
+import { NestjsFormDataModule } from 'nestjs-form-data'
 
 @Module({
   imports: [
