@@ -5,6 +5,7 @@ import { FormDataRequest, HasMimeType } from 'nestjs-form-data'
 import Ajv, {JSONSchemaType} from "ajv"
 
 export interface data {
+  
   mvnos: number[]
   name: string
 }
