@@ -6,10 +6,10 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { JwtModule } from '@nestjs/jwt';
 import { UsersEntity } from '../../infrastructure/orm/entities/users.entity';
 import { OrmModule } from '../../infrastructure/orm/orm.module';
-import { ORMService } from '../../infrastructure/orm/orm.service'
-import { AnnouncementController } from '../announcement/announcement.controller'
-import { AnnouncementService } from '../announcement/announcement.service'
-import { AnnouncementModule } from '../announcement/announcement.module'
+import { ORMService } from '../../infrastructure/orm/orm.service';
+import { AnnouncementController } from '../announcement/announcement.controller';
+import { AnnouncementService } from '../announcement/announcement.service';
+import { AnnouncementModule } from '../announcement/announcement.module';
 @Module({
   imports: [
     ConfigModule.forRoot(),
